@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caravan & Key — Private Holiday Visas & Curated Stays | KSA</title>
+
+  <!-- Google Fonts: Cinzel Decorative/Editorial Serif + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            noir: '#05070A',
+            obsidian: '#090D13',
+            onyx: '#0E141D',
+            charcoal: '#151D2A',
+            panel: '#101722',
+            gold: {
+              100: '#FDF7E7',
+              200: '#F6E7BC',
+              300: '#E5C378',
+              400: '#D4AF37',
+              500: '#B89228',
+              600: '#8E6E19',
+              700: '#644D0F',
+            },
+            mutedText: '#8F9CAE',
+          },
+          fontFamily: {
+            serif: ['"Cinzel"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Moody atmosphere and fine metallic detailing */
+    body {
+      background-color: #05070A;
+      color: #E2E8F0;
+      background-image: 
+        radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.08) 0%, transparent 60%),
+        radial-gradient(circle at 100% 50%, rgba(14, 20, 29, 0.9) 0%, transparent 50%);
+    }
+
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #FDF7E7 10%, #E5C378 45%, #D4AF37 70%, #9A7B38 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .gold-border {
+      border: 1px solid rgba(212, 175, 55, 0.22);
+    }
+
+    .gold-border-interactive {
+      border: 1px solid rgba(212, 175, 55, 0.22);
+      transition: all 0.3s ease;
+    }
+    .gold-border-interactive:hover {
+      border-color: rgba(212, 175, 55, 0.65);
+      box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.15);
+    }
+
+    .glow-gold {
+      box-shadow: 0 0 40px -10px rgba(212, 175, 55, 0.18);
+    }
+
+    .glass-noir {
+      background: rgba(14, 20, 29, 0.72);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #05070A;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1C2433;
+      border-radius: 4px;
+      border: 1px solid rgba(212, 175, 55, 0.2);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #D4AF37;
+    }
+  </style>
+</head>
+
+<body class="font-sans antialiased selection:bg-gold-400 selection:text-noir">
+
+  <!-- Floating Luxury WhatsApp Concierge Pill -->
+  <a href="https://wa.me/966550710646?text=Salam.%20I%20am%20an%20expatriate%20resident%20in%20Saudi%20Arabia%20inquiring%20about%20a%20private%20holiday%20visa%20and%20luxury%20stay."
+     target="_blank"
+     rel="noopener noreferrer"
+     class="fixed bottom-6 right-6 z-50 flex items-center gap-3.5 bg-obsidian/90 hover:bg-onyx text-white px-5 py-3.5 rounded-full gold-border shadow-2xl transition-all duration-300 hover:scale-105 group backdrop-blur-md">
+    <div class="relative flex items-center justify-center">
+      <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+      <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 absolute animate-ping opacity-75"></span>
+    </div>
+    <i class="fa-brands fa-whatsapp text-emerald-400 text-xl group-hover:rotate-12 transition-transform"></i>
+    <div class="text-left hidden sm:block">
+      <span class="block text-[9px] uppercase tracking-[0.25em] text-gold-300 font-bold">Confidential Desk</span>
+      <span class="block text-xs font-semibold tracking-wide text-gray-200">Connect via WhatsApp</span>
+    </div>
+  </a>
+
+  <!-- Diplomatic Hub Notice Bar -->
+  <div class="bg-noir/90 border-b border-gold-400/15 py-2 px-4 text-xs">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2 text-center md:text-left">
+      <div class="flex items-center gap-2 sm:gap-4 text-[11px] tracking-wider text-mutedText">
+        <span class="inline-flex items-center gap-1.5 text-gold-300">
+          <i class="fa-solid fa-landmark-dome text-xs"></i> Consular Coverage:
+        </span>
+        <span class="text-gray-300 font-medium">Riyadh Diplomatic Quarter</span>
+        <span class="text-gold-500/50">•</span>
+        <span class="text-gray-300 font-medium">Jeddah Consular District</span>
+        <span class="text-gold-500/50">•</span>
+        <span class="text-gray-300 font-medium">Dhahran / Al-Khobar Hubs</span>
+      </div>
+      <div class="flex items-center gap-3 text-[11px] text-mutedText">
+        <span class="text-gold-300 font-semibold"><i class="fa-solid fa-shield-halved mr-1"></i> For All Expatriate Residents</span>
+        <span class="text-gold-500/50">•</span>
+        <a href="#calculator" class="text-gray-300 hover:text-gold-300 transition-colors underline underline-offset-4">Calculate Dossier Window</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Navigation -->
+  <header class="sticky top-0 z-40 bg-noir/85 backdrop-blur-xl border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
+      
+      <!-- Monogram & Brand -->
+      <a href="#" class="flex items-center gap-3.5 group">
+        <div class="w-12 h-12 rounded bg-gradient-to-br from-charcoal to-obsidian gold-border flex items-center justify-center text-xl text-gold-300 group-hover:border-gold-400 transition-colors shadow-inner">
+          <i class="fa-solid fa-key"></i>
+        </div>
+        <div>
+          <span class="block font-serif text-xl sm:text-2xl font-bold tracking-[0.18em] text-white uppercase">
+            Caravan <span class="gold-gradient-text">&</span> Key
+          </span>
+          <span class="block text-[9px] uppercase tracking-[0.3em] text-gold-300/80 font-medium">
+            Private Holiday Visas & Curated Stays
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav class="hidden lg:flex items-center gap-8 text-xs uppercase tracking-[0.2em] font-medium text-mutedText">
+        <a href="#corridors" class="hover:text-gold-300 transition-colors">Destinations</a>
+        <a href="#hubs" class="hover:text-gold-300 transition-colors">Consular Hubs</a>
+        <a href="#calculator" class="hover:text-gold-300 transition-colors">Concierge Planner</a>
+        <a href="#protocol" class="hover:text-gold-300 transition-colors">Document Architecture</a>
+        <a href="#faq" class="hover:text-gold-300 transition-colors">Protocol FAQ</a>
+      </nav>
+
+      <!-- Concierge CTA -->
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/966500000000?text=Salam.%20I%20would%20like%20to%20schedule%20a%20confidential%20holiday%20visa%20and%20family%20stay%20consultation."
+           target="_blank"
+           class="inline-flex items-center gap-2.5 px-6 py-3 rounded bg-gradient-to-r from-gold-500/20 via-gold-400/20 to-gold-500/20 hover:from-gold-400 hover:to-gold-500 hover:text-noir text-gold-200 text-xs font-bold uppercase tracking-widest gold-border transition-all duration-300">
+          <i class="fa-solid fa-lock text-xs"></i>
+          <span>Private Consultation</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative pt-16 pb-24 md:pt-28 md:pb-36 overflow-hidden">
+    <!-- Subtle glow orb background -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-gold-400/10 blur-[130px] rounded-full pointer-events-none"></div>
+
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      
+      <!-- Status Tag -->
+      <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-onyx/80 border border-gold-400/30 text-gold-300 text-xs font-semibold tracking-[0.22em] uppercase mb-8 backdrop-blur-md">
+        <span class="w-1.5 h-1.5 rounded-full bg-gold-400 animate-ping"></span>
+        Sovereign Consular Facilitation & Private Residences
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="font-serif text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-[1.12] mb-8">
+        Distinguished Holidays for <br class="hidden sm:inline"/>
+        <span class="gold-gradient-text">Global Expatriates</span> in the Kingdom.
+      </h1>
+
+      <!-- Subheadline -->
+      <p class="max-w-3xl mx-auto text-mutedText text-base sm:text-lg md:text-xl font-normal leading-relaxed mb-12">
+        White-glove tourist visa dossier execution and handpicked luxury residences across <strong class="text-white font-medium">Schengen Europe, the United Kingdom, the United States, and Canada</strong>. Tailored exclusively for expatriate executives, medical directors, corporate leaders, and international families residing in Saudi Arabia.
+      </p>
+
+      <!-- Primary Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto mb-16">
+        <a href="#calculator"
+           class="w-full sm:w-auto px-8 py-4 rounded bg-gradient-to-r from-gold-400 to-gold-500 hover:from-gold-300 hover:to-gold-400 text-noir font-bold text-xs uppercase tracking-[0.2em] transition-all shadow-xl flex items-center justify-center gap-2.5">
+          <span>Plan Family Itinerary</span>
+          <i class="fa-solid fa-compass text-sm"></i>
+        </a>
+        <a href="https://wa.me/966500000000?text=Salam.%20I%20am%20interested%20in%20arranging%20travel%20visas%20and%20luxury%20stays%20from%20Saudi%20Arabia."
+           target="_blank"
+           class="w-full sm:w-auto px-8 py-4 rounded bg-onyx/90 hover:bg-charcoal text-white gold-border font-bold text-xs uppercase tracking-[0.2em] transition-all flex items-center justify-center gap-3">
+          <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+          <span>Direct WhatsApp</span>
+        </a>
+      </div>
+
+      <!-- Executive Metric Pillars -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto pt-10 border-t border-white/10 text-left">
+        <div class="p-4 bg-onyx/60 rounded gold-border">
+          <span class="block text-[10px] uppercase tracking-widest text-gold-400 font-bold mb-1">Passports Serviced</span>
+          <p class="font-serif text-base sm:text-lg font-bold text-white">All Global Nationalities</p>
+          <span class="text-[11px] text-mutedText">Expatriate residents in KSA</span>
+        </div>
+        <div class="p-4 bg-onyx/60 rounded gold-border">
+          <span class="block text-[10px] uppercase tracking-widest text-gold-400 font-bold mb-1">Consular Jurisdictions</span>
+          <p class="font-serif text-base sm:text-lg font-bold text-white">Riyadh • Jeddah • Dhahran</p>
+          <span class="text-[11px] text-mutedText">DQ embassies & VFS/TLS/BLS</span>
+        </div>
+        <div class="p-4 bg-onyx/60 rounded gold-border">
+          <span class="block text-[10px] uppercase tracking-widest text-gold-400 font-bold mb-1">Curated Residences</span>
+          <p class="font-serif text-base sm:text-lg font-bold text-white">Multi-Bedroom Suites</p>
+          <span class="text-[11px] text-mutedText">Central, serviced & family-first</span>
+        </div>
+        <div class="p-4 bg-onyx/60 rounded gold-border">
+          <span class="block text-[10px] uppercase tracking-widest text-gold-400 font-bold mb-1">Dossier Architecture</span>
+          <p class="font-serif text-base sm:text-lg font-bold text-white">100% Embassy Compliant</p>
+          <span class="text-[11px] text-mutedText">Chamber, GOSI & banking verified</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section: The 4 Holiday Corridors -->
+  <section id="corridors" class="py-24 bg-obsidian border-y border-white/5 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+        <div>
+          <span class="text-xs uppercase font-bold tracking-[0.25em] text-gold-400">Curated Portfolios</span>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-2">
+            The Four Western Travel Corridors
+          </h2>
+        </div>
+        <p class="text-mutedText text-sm max-w-md mt-4 md:mt-0 leading-relaxed">
+          Full-spectrum integration: official embassy appointment capture, Chamber NOC compliance, verifiable flight reservations, and luxury serviced accommodations.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Corridor 1: Schengen & Europe -->
+        <div class="bg-onyx rounded-sm gold-border-interactive flex flex-col justify-between overflow-hidden group">
+          <div class="p-6">
+            <div class="flex items-center justify-between pb-3 mb-4 border-b border-white/10">
+              <span class="text-[11px] uppercase tracking-widest font-bold text-gold-300">Europe</span>
+              <span class="text-[10px] bg-charcoal px-2.5 py-1 rounded text-gold-200 border border-gold-400/30">Schengen Uniform</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-white mb-2 group-hover:text-gold-200 transition-colors">Schengen & Western Europe</h3>
+            <p class="text-mutedText text-xs leading-relaxed mb-6">
+              Swiss alpine escapes, Paris Haute Couture weeks, Lake Como retreats, and Mediterranean coastal holidays.
+            </p>
+
+            <div class="space-y-3 text-xs mb-6">
+              <div class="p-3 bg-panel rounded border border-white/5">
+                <span class="block text-[10px] uppercase font-bold text-gold-300 mb-1">Visa Processing Desk</span>
+                VFS / TLScontact / BLS submission packaging (France, Switzerland, Italy, Spain, Germany) with multi-entry travel proofs.
+              </div>
+              <div class="p-3 bg-panel rounded border border-white/5">
+                <span class="block text-[10px] uppercase font-bold text-gold-300 mb-1">Curated Residences</span>
+                Bespoke serviced chalets in Zermatt, prime Haussmann apartments in Paris, or private villas in Marbella.
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0">
+            <a href="https://wa.me/966500000000?text=Salam.%20I%20am%20inquiring%20about%20the%20Schengen%20%26%20Europe%20Family%20Holiday%20Package."
+               target="_blank"
+               class="w-full py-3 px-4 rounded bg-charcoal hover:bg-gold-500 hover:text-noir text-gold-300 text-xs uppercase tracking-widest font-bold text-center block transition-all border border-gold-400/20">
+              Explore Europe Dossier <i class="fa-solid fa-arrow-right ml-1 text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Corridor 2: United Kingdom -->
+        <div class="bg-onyx rounded-sm gold-border-interactive flex flex-col justify-between overflow-hidden group">
+          <div class="p-6">
+            <div class="flex items-center justify-between pb-3 mb-4 border-b border-white/10">
+              <span class="text-[11px] uppercase tracking-widest font-bold text-gold-300">Great Britain</span>
+              <span class="text-[10px] bg-charcoal px-2.5 py-1 rounded text-gold-200 border border-gold-400/30">6-Mo / 2-Yr / 5-Yr</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-white mb-2 group-hover:text-gold-200 transition-colors">United Kingdom & Scotland</h3>
+            <p class="text-mutedText text-xs leading-relaxed mb-6">
+              London summer leisure, high-street shopping in Mayfair and Knightsbridge, and scenic Edinburgh castle tours.
+            </p>
+
+            <div class="space-y-3 text-xs mb-6">
+              <div class="p-3 bg-panel rounded border border-white/5">
+                <span class="block text-[10px] uppercase font-bold text-gold-300 mb-1">Visa Processing Desk</span>
+                UK Standard Visitor online application, VFS appointment coordination (Riyadh, Jeddah, Khobar), and priority processing support.
+              </div>
+              <div class="p-3 bg-panel rounded border border-white/5">
+                <span class="block text-[10px] uppercase font-bold text-gold-300 mb-1">Curated Residences</span>
+                2 & 3 Bedroom luxury suites in Kensington, Marylebone, or Mayfair with concierge and private chef capabilities.
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0">
+            <a href="https://wa.me/966500000000?text=Salam.%20I%20am%20inquiring%20about%20the%20UK%20London%20Mayfair%20Family%20Package."
+               target="_blank"
+               class="w-full py-3 px-4 rounded bg-charcoal hover:bg-gold-500 hover:text-noir text-gold-300 text-xs uppercase tracking-widest font-bold text-center block transition-all border border-gold-400/20">
+              Explore UK Dossier <i class="fa-solid fa-arrow-right ml-1 text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Corridor 3: United States -->
+        <div class="bg-onyx rounded-sm border-2 border-gold-400/70 flex flex-col justify-between overflow-hidden group shadow-2xl relative">
+          <div class="bg-gold-400 text-noir text-[10px] font-black uppercase tracking-[0.25em] text-center py-1.5">
+            Executive Family Favorite
+          </div>
+
+          <div class="p-6">
+            <div class="flex items-center justify-between pb-3 mb-4 border-b border-white/10">
+              <span class="text-[11px] uppercase tracking-widest font-bold text-gold-300">United States</span>
+              <span class="text-[10px] bg-charcoal px-2.5 py-1 rounded text-gold-200 border border-gold-400/30">B1/B2 10-Year Multi</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-white mb-2 group-hover:text-gold-200 transition-colors">United States of America</h3>
+            <p class="text-mutedText text-xs leading-relaxed mb-6">
+              Orlando theme parks, California Pacific coastal drives, New York Broadway escapes, and Aspen winter skiing.
+            </p>
+
+            <div class="space-y-3 text-xs mb-6">
+              <div class="p-3 bg-panel rounded border border-white/5">
+                <span class="block text-[10px] uppercase font-bold text-gold-300 mb-1">Visa Processing Desk</span>
+                DS-160 execution, consular fee reconciliation, slot monitoring in Riyadh / Dhahran / Jeddah, and private 1-on-1 mock interview coaching.
+              </div>
+              <div class="p-3 bg-panel rounded border border-white/5">
+                <span class="block text-[10px] uppercase font-bold text-gold-300 mb-1">Curated Residences</span>
+                Private gated resort villas in Orlando with screened pools, or connected high-floor residences in Midtown Manhattan.
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0">
+            <a href="https://wa.me/966500000000?text=Salam.%20I%20am%20inquiring%20about%20the%20USA%20Family%20Holiday%20Package."
+               target="_blank"
+               class="w-full py-3 px-4 rounded bg-gold-400 hover:bg-gold-300 text-noir text-xs uppercase tracking-widest font-bold text-center block transition-all shadow-md">
+              Explore USA Dossier <i class="fa-solid fa-arrow-right ml-1 text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Corridor 4: Canada -->
+        <div class="bg-onyx rounded-sm gold-border-interactive flex flex-col justify-between overflow-hidden group">
+          <div class="p-6">
+            <div class="flex items-center justify-between pb-3 mb-4 border-b border-white/10">
+              <span class="text-[11px] uppercase tracking-widest font-bold text-gold-300">Canada</span>
+              <span class="text-[10px] bg-charcoal px-2.5 py-1 rounded text-gold-200 border border-gold-400/30">TRV Multiple Entry</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-white mb-2 group-hover:text-gold-200 transition-colors">Canada & The Rockies</h3>
+            <p class="text-mutedText text-xs leading-relaxed mb-6">
+              Banff glacier peaks, Lake Louise luxury, Vancouver oceanfront promenades, and Montreal cultural quarters.
+            </p>
+
+            <div class="space-y-3 text-xs mb-6">
+              <div class="p-3 bg-panel rounded border border-white/5">
+                <span class="block text-[10px] uppercase font-bold text-gold-300 mb-1">Visa Processing Desk</span>
+                IRCC Portal consolidated family dossier, biometrics scheduling at VFS Riyadh/Jeddah/Khobar, and economic tie substantiation.
+              </div>
+              <div class="p-3 bg-panel rounded border border-white/5">
+                <span class="block text-[10px] uppercase font-bold text-gold-300 mb-1">Curated Residences</span>
+                Private alpine chalets in Canmore/Banff or executive harbor-facing penthouses in Downtown Vancouver.
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0">
+            <a href="https://wa.me/966500000000?text=Salam.%20I%20am%20inquiring%20about%20the%20Canada%20Rocky%20Mountains%20Family%20Package."
+               target="_blank"
+               class="w-full py-3 px-4 rounded bg-charcoal hover:bg-gold-500 hover:text-noir text-gold-300 text-xs uppercase tracking-widest font-bold text-center block transition-all border border-gold-400/20">
+              Explore Canada Dossier <i class="fa-solid fa-arrow-right ml-1 text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section: Consular Centers Across Saudi Arabia -->
+  <section id="hubs" class="py-24 bg-noir border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase font-bold tracking-[0.25em] text-gold-400">Kingdom-Wide Consular Coverage</span>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-2 mb-4">
+          All Three Diplomatic Jurisdictions Handled
+        </h2>
+        <p class="text-mutedText text-sm sm:text-base leading-relaxed">
+          Expatriate families reside across the Kingdom. Caravan & Key coordinates appointments, biometric submissions, and passport logistics directly through your corresponding regional consular center.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Hub 1: Riyadh -->
+        <div class="p-8 bg-onyx rounded-sm gold-border relative">
+          <div class="w-12 h-12 rounded bg-charcoal text-gold-300 flex items-center justify-center text-xl mb-6 gold-border">
+            <i class="fa-solid fa-building-columns"></i>
+          </div>
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="font-serif text-2xl font-bold text-white">Riyadh Hub</h3>
+            <span class="text-[10px] text-emerald-400 font-bold uppercase tracking-wider bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-500/20">Active Coverage</span>
+          </div>
+          <span class="block text-xs uppercase tracking-widest text-gold-300 mb-4">Diplomatic Quarter (Al-Safarat)</span>
+          <p class="text-mutedText text-xs leading-relaxed mb-6">
+            Primary jurisdiction for the US Embassy (DQ), British Embassy Riyadh, and main European consular chancelleries. Daily appointment tracking and VFS Global Riyadh scheduling.
+          </p>
+          <ul class="text-xs space-y-2 text-gray-300 pt-4 border-t border-white/10">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400 text-xs"></i> US Embassy Riyadh (Interview Slots)</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400 text-xs"></i> VFS Global Riyadh (UK & Schengen)</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400 text-xs"></i> TLScontact & BLS Spain Centers</li>
+          </ul>
+        </div>
+
+        <!-- Hub 2: Jeddah -->
+        <div class="p-8 bg-onyx rounded-sm gold-border relative">
+          <div class="w-12 h-12 rounded bg-charcoal text-gold-300 flex items-center justify-center text-xl mb-6 gold-border">
+            <i class="fa-solid fa-anchor"></i>
+          </div>
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="font-serif text-2xl font-bold text-white">Jeddah Hub</h3>
+            <span class="text-[10px] text-emerald-400 font-bold uppercase tracking-wider bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-500/20">Active Coverage</span>
+          </div>
+          <span class="block text-xs uppercase tracking-widest text-gold-300 mb-4">Consular District & Western Province</span>
+          <p class="text-mutedText text-xs leading-relaxed mb-6">
+            Serving residents of Jeddah, Makkah, Madinah, Yanbu, and KAUST. Full facilitation for the US Consulate General in Jeddah and VFS Global European biometric desks.
+          </p>
+          <ul class="text-xs space-y-2 text-gray-300 pt-4 border-t border-white/10">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400 text-xs"></i> US Consulate General Jeddah</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400 text-xs"></i> VFS Global Western Hub (Al-Hada)</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400 text-xs"></i> Schengen Biometrics Processing</li>
+          </ul>
+        </div>
+
+        <!-- Hub 3: Dhahran & Al-Khobar -->
+        <div class="p-8 bg-onyx rounded-sm gold-border relative">
+          <div class="w-12 h-12 rounded bg-charcoal text-gold-300 flex items-center justify-center text-xl mb-6 gold-border">
+            <i class="fa-solid fa-compass-drafting"></i>
+          </div>
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="font-serif text-2xl font-bold text-white">Dhahran & Khobar</h3>
+            <span class="text-[10px] text-emerald-400 font-bold uppercase tracking-wider bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-500/20">Active Coverage</span>
+          </div>
+          <span class="block text-xs uppercase tracking-widest text-gold-300 mb-4">Eastern Province Diplomatic Desk</span>
+          <p class="text-mutedText text-xs leading-relaxed mb-6">
+            Serving senior corporate executives, Aramco community families, and industrialists across Khobar, Dammam, and Jubail. Handling US Consulate Dhahran appointments.
+          </p>
+          <ul class="text-xs space-y-2 text-gray-300 pt-4 border-t border-white/10">
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400 text-xs"></i> US Consulate General Dhahran</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400 text-xs"></i> VFS Global Al-Khobar Center</li>
+            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400 text-xs"></i> Canada & UK Biometrics Submission</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Feature: Expedition & Visa Concierge Calculator -->
+  <section id="calculator" class="py-24 bg-obsidian border-b border-white/5 relative">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs uppercase font-bold tracking-[0.25em] text-gold-400">Personalized Dossier Architecture</span>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-2 mb-3">
+          Expedition & Visa Calculator
+        </h2>
+        <p class="text-mutedText text-sm sm:text-base leading-relaxed">
+          Select your residency profile, consular jurisdiction, and corridor to preview the required documentation architecture and receive a tailored itinerary briefing.
+        </p>
+      </div>
+
+      <div class="bg-panel rounded-sm gold-border p-6 sm:p-10 shadow-2xl relative">
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+          
+          <!-- Selector 1: City Hub -->
+          <div>
+            <label class="block text-xs uppercase tracking-wider font-bold text-gold-300 mb-2">
+              <i class="fa-solid fa-location-dot text-gold-400 mr-1"></i> Origin Hub
+            </label>
+            <select id="calcCity" onchange="runCalculator()" class="w-full bg-onyx border border-white/10 rounded px-3.5 py-3 text-xs sm:text-sm text-white font-medium focus:outline-none focus:border-gold-400">
+              <option value="Riyadh">Riyadh (DQ Mission Center)</option>
+              <option value="Jeddah">Jeddah (Western Consulates)</option>
+              <option value="Eastern Province">Eastern Province (Dhahran/Khobar)</option>
+            </select>
+          </div>
+
+          <!-- Selector 2: Destination Corridor -->
+          <div>
+            <label class="block text-xs uppercase tracking-wider font-bold text-gold-300 mb-2">
+              <i class="fa-solid fa-plane-departure text-gold-400 mr-1"></i> Corridor
+            </label>
+            <select id="calcDestination" onchange="runCalculator()" class="w-full bg-onyx border border-white/10 rounded px-3.5 py-3 text-xs sm:text-sm text-white font-medium focus:outline-none focus:border-gold-400">
+              <option value="Schengen & Western Europe">Schengen Europe (Paris, Swiss Alps, Spain)</option>
+              <option value="United Kingdom">United Kingdom (London & Highlands)</option>
+              <option value="United States">United States (Orlando, NYC & California)</option>
+              <option value="Canada">Canada (The Rockies & Great Cities)</option>
+            </select>
+          </div>
+
+          <!-- Selector 3: Residency Status -->
+          <div>
+            <label class="block text-xs uppercase tracking-wider font-bold text-gold-300 mb-2">
+              <i class="fa-solid fa-id-card text-gold-400 mr-1"></i> KSA Status
+            </label>
+            <select id="calcResidency" onchange="runCalculator()" class="w-full bg-onyx border border-white/10 rounded px-3.5 py-3 text-xs sm:text-sm text-white font-medium focus:outline-none focus:border-gold-400">
+              <option value="Executive Iqama">Executive / Professional Iqama</option>
+              <option value="Saudi Premium Residency">Saudi Premium Residency (Gold/Permanent)</option>
+              <option value="Business CR / Investor">Commercial Registration / Investor</option>
+              <option value="Standard Resident Iqama">Standard Resident Iqama</option>
+            </select>
+          </div>
+
+          <!-- Selector 4: Travel Party -->
+          <div>
+            <label class="block text-xs uppercase tracking-wider font-bold text-gold-300 mb-2">
+              <i class="fa-solid fa-users text-gold-400 mr-1"></i> Party Composition
+            </label>
+            <select id="calcParty" onchange="runCalculator()" class="w-full bg-onyx border border-white/10 rounded px-3.5 py-3 text-xs sm:text-sm text-white font-medium focus:outline-none focus:border-gold-400">
+              <option value="Family with 2 Children">Family with 2 Children (4 Pax)</option>
+              <option value="Extended Family (5+ Pax)">Extended Family (5+ Pax)</option>
+              <option value="Couple (2 Adults)">Couple (2 Adults)</option>
+              <option value="Solo Executive">Solo Executive Traveler</option>
+            </select>
+          </div>
+
+        </div>
+
+        <!-- Dynamic Output Matrix -->
+        <div class="bg-onyx rounded-sm border border-gold-400/40 p-6 sm:p-8">
+          
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-6 border-b border-white/10">
+            <div>
+              <span class="text-[10px] uppercase tracking-widest text-gold-400 font-bold block mb-1">Dossier Evaluation Result</span>
+              <h4 id="calcOutputTitle" class="font-serif text-xl sm:text-2xl font-bold text-white">
+                Schengen & Western Europe • Riyadh DQ Submission
+              </h4>
+              <p id="calcLeadTime" class="text-xs sm:text-sm text-mutedText mt-1">
+                Estimated Visa Processing: <strong class="text-gold-200">3 - 5 Weeks</strong> | Recommended Stay: <strong class="text-gold-200">Luxury Multi-Bedroom Residence</strong>
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <a id="calcWhatsAppBtn" href="#" target="_blank" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded bg-gradient-to-r from-gold-400 to-gold-500 hover:brightness-110 text-noir text-xs uppercase tracking-widest font-black transition-all shadow-lg">
+                <i class="fa-brands fa-whatsapp text-base"></i>
+                <span>Reserve Dossier via WhatsApp</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6 text-xs text-mutedText">
+            <div>
+              <strong class="block text-white font-semibold mb-1 uppercase tracking-wider text-[11px]"><i class="fa-solid fa-stamp text-gold-400 mr-1"></i> Chamber Attestation</strong>
+              <span id="calcDocCheck">Employer NOC with designation and salary, Chamber of Commerce sealed.</span>
+            </div>
+            <div>
+              <strong class="block text-white font-semibold mb-1 uppercase tracking-wider text-[11px]"><i class="fa-solid fa-calendar-check text-gold-400 mr-1"></i> Consular Processing Point</strong>
+              <span id="calcConsulatePoint">VFS / TLScontact Center Riyadh for biometrics capture.</span>
+            </div>
+            <div>
+              <strong class="block text-white font-semibold mb-1 uppercase tracking-wider text-[11px]"><i class="fa-solid fa-hotel text-gold-400 mr-1"></i> Family Accommodation Profile</strong>
+              <span id="calcStayProfile">Verified 2-to-3 Bedroom central apartment with cancellation protection.</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section: Document Architecture & Expat Nuances -->
+  <section id="protocol" class="py-24 bg-noir border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase font-bold tracking-[0.25em] text-gold-400">Meticulous Standards</span>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-2 mb-4">
+          The Caravan & Key Document Architecture
+        </h2>
+        <p class="text-mutedText text-sm sm:text-base leading-relaxed">
+          Embassy officers evaluate expatriates on two non-negotiable criteria: genuine tourism intent and undeniable economic anchors to Saudi Arabia. We assemble your portfolio to satisfy both.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Pillar 1 -->
+        <div class="p-8 bg-onyx rounded-sm gold-border">
+          <div class="w-10 h-10 rounded bg-charcoal text-gold-400 flex items-center justify-center text-lg mb-6 gold-border">
+            <i class="fa-solid fa-file-invoice-dollar"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-white mb-3">Saudi Banking & GOSI Alignment</h3>
+          <p class="text-mutedText text-xs sm:text-sm leading-relaxed mb-4">
+            We ensure your 6-month stamped Saudi bank statement matches your payroll transaction lines, GOSI wage records, and Chamber-attested salary certificate down to the halala.
+          </p>
+          <span class="text-[11px] font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1.5 pt-4 border-t border-white/10">
+            <i class="fa-solid fa-shield-check text-xs"></i> Eliminates Financial Discrepancies
+          </span>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="p-8 bg-onyx rounded-sm gold-border">
+          <div class="w-10 h-10 rounded bg-charcoal text-gold-400 flex items-center justify-center text-lg mb-6 gold-border">
+            <i class="fa-solid fa-plane-circle-check"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-white mb-3">Exit/Re-Entry & Muqeem Integrity</h3>
+          <p class="text-mutedText text-xs sm:text-sm leading-relaxed mb-4">
+            Western consulates require proof that your family will return to Saudi Arabia. We compile certified Muqeem translations, school enrollment letters, and return travel schedules.
+          </p>
+          <span class="text-[11px] font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1.5 pt-4 border-t border-white/10">
+            <i class="fa-solid fa-shield-check text-xs"></i> Substantiates Non-Immigrant Ties
+          </span>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="p-8 bg-onyx rounded-sm gold-border">
+          <div class="w-10 h-10 rounded bg-charcoal text-gold-400 flex items-center justify-center text-lg mb-6 gold-border">
+            <i class="fa-solid fa-bed"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-white mb-3">Verified Family Stays</h3>
+          <p class="text-mutedText text-xs sm:text-sm leading-relaxed mb-4">
+            We coordinate compliant, fully cancellable reservations for spacious luxury residences and suites. You avoid locking capital into rigid hotels before your visas are stamped.
+          </p>
+          <span class="text-[11px] font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1.5 pt-4 border-t border-white/10">
+            <i class="fa-solid fa-shield-check text-xs"></i> Zero Pre-Approval Financial Risk
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section: Protocol FAQ -->
+  <section id="faq" class="py-24 bg-obsidian border-b border-white/5">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-16">
+        <span class="text-xs uppercase font-bold tracking-[0.25em] text-gold-400">Advisory Clarifications</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-2 mb-3">
+          Frequently Addressed Protocols
+        </h2>
+      </div>
+
+      <div class="space-y-4">
+        
+        <!-- FAQ 1 -->
+        <details class="bg-onyx rounded-sm gold-border p-6 group transition-all">
+          <summary class="font-serif font-bold text-white cursor-pointer list-none flex justify-between items-center text-base sm:text-lg">
+            <span>Can all expatriate nationalities in Saudi Arabia apply for Western visas from the Kingdom?</span>
+            <i class="fa-solid fa-plus text-gold-400 text-xs group-open:hidden"></i>
+            <i class="fa-solid fa-minus text-gold-400 text-xs hidden group-open:inline"></i>
+          </summary>
+          <p class="text-mutedText text-xs sm:text-sm mt-4 leading-relaxed">
+            Yes. Western consulates (Schengen, UK, US, and Canada) explicitly expect foreign nationals to apply from their country of lawful, primary residence. Holding a valid Saudi Iqama or Premium Residency satisfies the jurisdiction requirement to lodge your application in Riyadh, Jeddah, or Dhahran.
+          </p>
+        </details>
+
+        <!-- FAQ 2 -->
+        <details class="bg-onyx rounded-sm gold-border p-6 group transition-all">
+          <summary class="font-serif font-bold text-white cursor-pointer list-none flex justify-between items-center text-base sm:text-lg">
+            <span>How does Caravan & Key secure earlier embassy appointment slots?</span>
+            <i class="fa-solid fa-plus text-gold-400 text-xs group-open:hidden"></i>
+            <i class="fa-solid fa-minus text-gold-400 text-xs hidden group-open:inline"></i>
+          </summary>
+          <p class="text-mutedText text-xs sm:text-sm mt-4 leading-relaxed">
+            Embassies release appointment batches and cancellations continuously throughout the business day. Our concierge team actively monitors slots across the US Embassy in Riyadh, the US Consulate in Dhahran, and European VFS/TLS centers to reschedule families into early windows before school holiday departures.
+          </p>
+        </details>
+
+        <!-- FAQ 3 -->
+        <details class="bg-onyx rounded-sm gold-border p-6 group transition-all">
+          <summary class="font-serif font-bold text-white cursor-pointer list-none flex justify-between items-center text-base sm:text-lg">
+            <span>What accommodation types are included in Caravan & Key packages?</span>
+            <i class="fa-solid fa-plus text-gold-400 text-xs group-open:hidden"></i>
+            <i class="fa-solid fa-minus text-gold-400 text-xs hidden group-open:inline"></i>
+          </summary>
+          <p class="text-mutedText text-xs sm:text-sm mt-4 leading-relaxed">
+            We specialize in family residences: 2-to-4 bedroom luxury serviced apartments, private townhomes, and resort villas. All stays are handpicked in prime, safe locations with nearby dining and transit, and include embassy-approved cancellation terms.
+          </p>
+        </details>
+
+        <!-- FAQ 4 -->
+        <details class="bg-onyx rounded-sm gold-border p-6 group transition-all">
+          <summary class="font-serif font-bold text-white cursor-pointer list-none flex justify-between items-center text-base sm:text-lg">
+            <span>How do we prepare for the US Embassy consular interview?</span>
+            <i class="fa-solid fa-plus text-gold-400 text-xs group-open:hidden"></i>
+            <i class="fa-solid fa-minus text-gold-400 text-xs hidden group-open:inline"></i>
+          </summary>
+          <p class="text-mutedText text-xs sm:text-sm mt-4 leading-relaxed">
+            Prior to your interview in Riyadh, Dhahran, or Jeddah, our desk conducts a 1-on-1 private simulation briefing. We coach you on articulately stating your vacation itinerary, presenting your Chamber-attested files, and confidently answering inquiries regarding your career in the Kingdom.
+          </p>
+        </details>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Ultra-Luxury CTA Banner -->
+  <section class="py-20 md:py-28 bg-gradient-to-b from-onyx to-noir border-b border-white/10 relative overflow-hidden text-center">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <span class="text-xs uppercase font-bold tracking-[0.3em] text-gold-400 block mb-3">Direct Private Intake</span>
+      <h2 class="font-serif text-3xl sm:text-5xl font-bold text-white mb-6">
+        Curate Your Next Family Journey
+      </h2>
+      <p class="text-mutedText text-sm sm:text-base max-w-2xl mx-auto mb-10 leading-relaxed">
+        Speak directly with a dedicated travel concierge on WhatsApp. Share your intended travel corridor, group size, and preferred departure dates for an immediate preliminary evaluation.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://wa.me/966500000000?text=Salam%20Caravan%20%26%20Key.%20I%20am%20ready%20to%20plan%20our%20family%20vacation%20visa%20and%20luxury%20stays."
+           target="_blank"
+           class="px-8 py-4 rounded bg-gradient-to-r from-gold-400 to-gold-500 hover:brightness-110 text-noir font-bold text-xs uppercase tracking-[0.2em] transition-all shadow-xl flex items-center justify-center gap-3">
+          <i class="fa-brands fa-whatsapp text-lg"></i>
+          <span>Open WhatsApp Dialogue</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Corporate & Diplomatic Footer -->
+  <footer class="bg-noir pt-16 pb-12 text-mutedText text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+        
+        <!-- Brand Summary -->
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded bg-charcoal text-gold-300 flex items-center justify-center text-sm font-serif gold-border">
+              <i class="fa-solid fa-key"></i>
+            </div>
+            <span class="font-serif text-xl font-bold tracking-[0.2em] text-white uppercase">
+              Caravan <span class="gold-gradient-text">&</span> Key
+            </span>
+          </div>
+          <p class="text-mutedText text-xs leading-relaxed max-w-sm mb-4">
+            Private vacation visa facilitation and luxury family residences for expatriate professionals, physicians, founders, and corporate leaders residing in the Kingdom of Saudi Arabia.
+          </p>
+          <div class="flex items-center gap-3 text-[11px] text-gold-400 font-semibold">
+            <span>Riyadh (DQ)</span> • <span>Jeddah</span> • <span>Dhahran / Khobar</span>
+          </div>
+        </div>
+
+        <!-- Curated Corridors -->
+        <div>
+          <h5 class="text-xs uppercase tracking-[0.2em] font-bold text-white mb-4">Holiday Corridors</h5>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#corridors" class="hover:text-gold-300 transition-colors">Schengen & Western Europe</a></li>
+            <li><a href="#corridors" class="hover:text-gold-300 transition-colors">United Kingdom & Scotland</a></li>
+            <li><a href="#corridors" class="hover:text-gold-300 transition-colors">United States of America</a></li>
+            <li><a href="#corridors" class="hover:text-gold-300 transition-colors">Canada & Rocky Mountains</a></li>
+          </ul>
+        </div>
+
+        <!-- Direct Contact -->
+        <div>
+          <h5 class="text-xs uppercase tracking-[0.2em] font-bold text-white mb-4">Concierge Desk</h5>
+          <ul class="space-y-2.5 text-xs">
+            <li class="flex items-center gap-2">
+              <i class="fa-brands fa-whatsapp text-emerald-400 text-sm"></i>
+              <a href="https://wa.me/966500000000" class="hover:text-white transition-colors text-gray-300">+966 50 000 0000</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-regular fa-envelope text-gold-400 text-sm"></i>
+              <span class="text-gray-300">advisory@caravanandkey.com</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-regular fa-clock text-gold-400 text-sm"></i>
+              <span class="text-gray-300">Sat – Thu: 09:00 – 21:00 (AST)</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Regulatory Disclaimer -->
+      <div class="border-t border-white/10 pt-8 text-[11px] text-mutedText/80 leading-relaxed space-y-2">
+        <p>
+          <strong>Consular & Regulatory Notice:</strong> Caravan & Key is an independent private travel concierge and itinerary curation desk. We provide tourist visa dossier architecture, appointment tracking, interview briefing, and verified accommodation booking services for expatriates in Saudi Arabia. We are not an embassy or consular mission. The grant or denial of any visa is the sovereign prerogative of the respective government authorities (US Department of State, UK Visas and Immigration, IRCC Canada, and Schengen Member States).
+        </p>
+        <p class="text-[10px] text-mutedText/60">
+          © <span id="yearVal"></span> Caravan & Key. All rights reserved. Registered private travel concierge for residents in the Kingdom of Saudi Arabia.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Dynamic Calculator Logic -->
+  <script>
+    document.getElementById('yearVal').textContent = new Date().getFullYear();
+
+    function runCalculator() {
+      const city = document.getElementById('calcCity').value;
+      const corridor = document.getElementById('calcDestination').value;
+      const residency = document.getElementById('calcResidency').value;
+      const party = document.getElementById('calcParty').value;
+
+      const title = document.getElementById('calcOutputTitle');
+      const leadTime = document.getElementById('calcLeadTime');
+      const doc = document.getElementById('calcDocCheck');
+      const consulate = document.getElementById('calcConsulatePoint');
+      const stay = document.getElementById('calcStayProfile');
+      const btn = document.getElementById('calcWhatsAppBtn');
+
+      let leadText = "3 - 5 Weeks";
+      let stayText = "2-to-3 Bedroom Luxury Serviced Residence";
+      let docText = "Chamber-attested NOC with designation and salary + 6-month Saudi bank statements.";
+      let pointText = "VFS / TLScontact Center";
+
+      if (corridor === "Schengen & Western Europe") {
+        leadText = "3 - 5 Weeks";
+        pointText = `VFS / TLS / BLS Mission Center in ${city}`;
+        stayText = "Handpicked Paris Haussmann Suite or Swiss Alpine Family Chalet";
+        docText = "Chamber NOC + 6-Month SAR Bank Statements + Multi-country itinerary.";
+      } else if (corridor === "United Kingdom") {
+        leadText = "4 - 6 Weeks (Standard / Priority available)";
+        pointText = `VFS Global Hub in ${city}`;
+        stayText = "2 or 3 Bedroom Mayfair / Kensington Serviced Residence";
+        docText = "Chamber-attested employment certification + salary matching bank proofs.";
+      } else if (corridor === "United States") {
+        leadText = "8 - 14 Weeks (Interview Slot Dependant)";
+        pointText = city === "Eastern Province" ? "US Consulate General Dhahran" : (city === "Jeddah" ? "US Consulate General Jeddah" : "US Embassy Riyadh (DQ)");
+        stayText = "Private Gated Orlando Villa with pool or Midtown Manhattan family suite";
+        docText = "DS-160 execution + 1-on-1 Consular Interview simulation briefing.";
+      } else { // Canada
+        leadText = "8 - 12 Weeks";
+        pointText = `VFS Canada Biometrics Desk in ${city}`;
+        stayText = "Alpine Luxury Chalet in Banff/Canmore or Vancouver Penthouse";
+        docText = "Consolidated family IRCC dossier + evidence of ongoing Saudi ties.";
+      }
+
+      if (residency === "Saudi Premium Residency") {
+        docText += " (Accelerated with Premium Residency certificate).";
+      } else if (residency === "Business CR / Investor") {
+        docText += " (Accompanied by Saudi Commercial Registration & Zakat filings).";
+      }
+
+      title.textContent = `${corridor} • ${city} Concierge Desk`;
+      leadTime.innerHTML = `Estimated Processing: <strong class="text-gold-200">${leadText}</strong> | Stay: <strong class="text-gold-200">${stayText}</strong>`;
+      doc.textContent = docText;
+      consulate.textContent = pointText;
+      stay.textContent = stayText;
+
+      const inquiry = encodeURIComponent(
+        `Salam Caravan & Key. I would like to reserve a consultation for ${corridor} out of ${city}. Profile: ${residency}, Party: ${party}. Please advise on current embassy appointment dates and curated stays.`
+      );
+      btn.href = `https://wa.me/966500000000?text=${inquiry}`;
+    }
+
+    // Initialize calculator defaults
+    runCalculator();
+  </script>
+
+</body>
+</html>
